@@ -45,6 +45,8 @@ dependencies:
   lottie: ^3.3.1
   step_progress_indicator: ^1.0.2
   mockito: ^5.4.5
+  dio_web_adapter: ^2.1.0
+
 
 dev_dependencies:
   flutter_test:
