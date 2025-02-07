@@ -1,0 +1,135 @@
+name: good_food_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  shared_preferences: ^2.5.1
+  logger: ^2.5.0
+  google_maps_flutter: ^2.10.0
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+  flutter_map: ^8.0.0
+  latlong2: ^0.9.1
+  flutter_polyline_points: ^2.1.0
+  location: ^8.0.0
+  dio: ^5.8.0+1
+  flutter_svg: ^2.0.17
+  hexcolor: ^3.0.1
+  firebase_core: ^3.8.1
+  cloud_firestore: ^5.5.1
+  firebase_auth: ^5.3.4
+  firebase_storage: ^12.3.7
+  provider: ^6.1.2
+  country_code_picker_plus: ^0.1.0+1
+  pinput: ^5.0.1
+  pin_code_fields: ^8.0.1
+  flutter_staggered_grid_view: ^0.7.0
+  calendar_date_picker2: ^1.1.8
+  dotted_dashed_line: ^0.0.3
+  smooth_page_indicator: ^1.2.0+3
+  cupertino_icons: ^1.0.8
+  get_it: ^8.0.3
+  shimmer: ^3.0.0
+  lottie: ^3.3.1
+  step_progress_indicator: ^1.0.2
+  mockito: ^5.4.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/icons/
+    - assets/images/
+#    - assets/image/small_product_img.png
+#    - assets/image/map.png
+#    - assets/image/delivery_hero.png
+#    - assets/image/bottom_1.png
+#    - assets/image/paypal.svg
+#    - assets/image/payment_provider.svg
+#    - assets/image/flours.png
+#    - assets/image/pickles.png
+#    - assets/image/whole_wheat_4.png
+#    - assets/image/whole_wheat_3.png
+#    - assets/image/whole_wheat_2.png
+#    - assets/image/whole_wheat_1.png
+#    - assets/image/mix_jar.png
+#    - assets/image/mix_background.png
+#    - assets/image/mix_green.png
+#    - assets/image/mix_weat.png
+#    - assets/image/image_25.png
+#    - assets/image/image_24.png
+#    - assets/image/group.png
+#    - assets/image/empty-jar 1.png
+#    - assets/image/Frame 5.png
+#    - assets/image/MC3 1.png
+#    - assets/image/grains 1.png
+#    - assets/image/cat_1.png
+#    - assets/image/cat_2.png
+#    - assets/image/cat_png.png
+#    - assets/image/catg_png.png
+#    - assets/image/cat_1.png
+#    - assets/image/catg_png.png
+#    - assets/image/MC3 3.svg
+#    - assets/image/MC3 5.svg
+#    - assets/image/avtaar-png.png
+#    - assets/image/Welcome_Back_.svg
+##    - assets/image/product_1.png\
+#    - assets/image/product_2.png
+#    - assets/image/logo.svg
+#    - assets/image/bottom_center.png
+#    - assets/image/bottom_right.png
+#    - assets/image/top_right.png
+#    - assets/image/top_center.png
+#    - assets/image/top_left.png
+#    - assets/image/add_banner.png
+#    - assets/image/add_offers.png
+#    - assets/image/profile.svg
+#    - assets/image/google_icon.svg
+#    - assets/image/splash_screen.svg
+
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/quicksand/Quicksand-Regular.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Bold.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Light.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Medium.ttf
+        - asset: assets/fonts/quicksand/Quicksand-SemiBold.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+
+    - family: DM_Sans
+      fonts:
+        - asset: assets/fonts/DM_Sans/static/DMSans-Black.ttf
+        - asset: assets/fonts/DM_Sans/static/DMSans-Bold.ttf
+        - asset: assets/fonts/DM_Sans/static/DMSans-Medium.ttf
+
+  generate: true

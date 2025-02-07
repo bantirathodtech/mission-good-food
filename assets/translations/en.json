@@ -1,0 +1,6 @@
+{
+  "app_title": "My App",
+  "welcome_message": "Welcome to our application",
+  "select_language": "Select Language",
+  "long_text": "This is a long text that might need multiple lines"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "214167132788",
+    "project_id": "mission-good-food",
+    "storage_bucket": "mission-good-food.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214167132788:android:f31a7da02406d67430cf21",
+        "android_client_info": {
+          "package_name": "com.cw.commerce.goodfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214167132788-g4te5vl9jf8fmt1fblp6uf1scmvuh2fd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmyPBaYAtY26Gbo9tkPxBgEHjBZZDNMu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214167132788-g4te5vl9jf8fmt1fblp6uf1scmvuh2fd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
